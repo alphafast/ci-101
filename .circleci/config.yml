@@ -5,4 +5,4 @@ jobs:
       - image: node:8.11.3-alpine
     steps:
       - checkout
-      - run: node -v
+      - run: ls
